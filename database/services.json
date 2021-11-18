@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "shortCode": "PCV",
+        "label": "Primary Care Visit",
+        "cost": 500
+    },
+    {
+        "id": 2,
+        "shortCode": "Blood",
+        "label": "Blood Test",
+        "cost": 40
+    },
+    {
+        "id": 3,
+        "shortCode": "Labs",
+        "label": "Labs",
+        "cost": 80
+    },
+    {
+        "id": 4,
+        "shortCode": "Pharmacy",
+        "label": "Pharmacy",
+        "cost": 120
+    }
+]
