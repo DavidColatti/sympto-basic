@@ -1,0 +1,2 @@
+export const PATIENTS = 'PATIENTS'
+export const APPOINTMENTS = 'APPOINTMENTS'

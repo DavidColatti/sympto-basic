@@ -1,12 +1,6 @@
 import { useCallback, useState } from 'react'
 import { isEmpty, isFunction } from 'lodash'
 
-/**
- * A custom hook to write/read from Local Storage similar to React.useState.
- * @param {string} key
- * @param {any} initialValue
- * @returns {Object[]}
- */
 function useLocalStorage(key, initialValue) {
     if (isEmpty(key)) {
         throw Error('Key must be defined')
